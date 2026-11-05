@@ -1,0 +1,19 @@
+{
+  "name": "exam-project",
+  "version": "0.0.1",
+  "description": "Exam project for the Full Stack Node.js course",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
